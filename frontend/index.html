@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciamento de dadps</title>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>Gerenciamento</h1>
+        <nav>
+            <ul>
+                <li><a href="#estudantes">Estudantes</a></li>
+                <li><a href="#cursos">Cursos</a></li>
+                <li><a href="#matriculas">Matrícula</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="estudantes">
+            <h2>Lista de Estudantes</h2>
+
+            <div id="container-estudantes">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Nome</th>
+                            <th>Email</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tabela-estudantes-corpo">
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="cursos">
+            <h2>Lista de Cursos</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Curso</th>
+                        <th>Vagas</th>
+                    </tr>
+                </thead>
+                <tbody id="tabela-cursos-corpo"></tbody>
+            </table>
+        </section>
+
+        <section id="matriculas">
+            <h2>Lista de Matrículas</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Estudante</th>
+                        <th>Curso</th>
+                    </tr>
+                </thead>
+                <tbody id="tabela-matriculas-corpo"></tbody>
+            </table>
+        </section>
+    </main>
+
+</body>
+
+</html>
